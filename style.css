@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg,red,blue);
+
+}
+.game{
+    background-color:#dba7d2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid yellowgreen;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+h1{
+    color: black;
+}
+.xLook{
+    background-color: lightseagreen;
+    color: red;
+}
+.oLook{
+    background-color: lightcoral;
+    color: blue;
+}
+.newlook{
+    background-color: white;
+    color: white;
+}
